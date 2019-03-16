@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Секундомер</title>
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container" name="formcontainer">
+			<form name="stopwatch">
+				<input type="button" class="btn" name="startstopbtn" value="Старт" 
+				onclick="startStop()">
+				<input name="clock" class="clock" value="00:00:00.00">
+				<input type="button" class="btn" name="refreshbtn" value="Сброс" 
+				onclick="clearClock()">
+			</form>
+		</div>
+
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
